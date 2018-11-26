@@ -8,7 +8,7 @@ bot.start(ctx => {
 })
 
 bot.on('text', ctx => {
-    ctx.reply(`Texta '${ctx.update.message.text}' recebido com sucesso!`)
+    ctx.reply(`Texto '${ctx.update.message.text}' recebido com sucesso!`)
 })
 
 bot.on('location', ctx => {
